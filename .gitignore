@@ -1,0 +1,18 @@
+# Logs
+logs
+npm-debug.log
+
+# Dependency directory
+node_modules
+
+# Distribution
+dist
+
+#Sass
+.sass-cache
+
+#Temporary
+.tmp
+
+#WebStorm
+.idea

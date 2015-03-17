@@ -7,6 +7,8 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+// Make sure to include the JSX transpiler
+require("node-jsx").install();
 
 var app = express();
 

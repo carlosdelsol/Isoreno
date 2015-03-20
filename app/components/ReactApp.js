@@ -1,5 +1,4 @@
 /** @jsx React.DOM */
-
 var React = require('react/addons');
 var ReactButton =  React.createFactory(require('./ReactButton').ReactButton);
 /* create factory with griddle component */
@@ -10,15 +9,11 @@ var columnMeta = require('../data/columnMeta.js').columnMeta;
 var resultsPerPage = 100;
 
 var ReactApp = React.createClass({
-
       componentDidMount: function () {
         console.log(fakeData);
 
       },
-
       render: function () {
-
-
         return (
           <div id="table-area">
 
@@ -27,7 +22,6 @@ var ReactApp = React.createClass({
           </div>
         )
       }
-
   });
 
 /* Module.exports instead of normal dom mounting */
